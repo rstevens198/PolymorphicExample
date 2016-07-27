@@ -15,9 +15,7 @@ namespace Shapes
         public string petName { get; set; }
 
         // A single virtual method
-        public virtual void Draw()
-        {
-            Console.WriteLine("Inside Shape.Draw()");
-        }
+        // We change this from a virtual method to an abstract method
+        public abstract void Draw();
     }
 }
